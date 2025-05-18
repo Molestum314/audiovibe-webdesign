@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Audiovibe - Music is life</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Audiovibe - Music is life" name="Company Label Music" />
+    <meta content="" name="Music is life" />
+    <meta content="" name="Dimas Muhammad Rizki" />
+    <!-- CSS Files -->
+    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link id="mdb" href="css/mdb.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+
+    <!-- Sertakan pustaka JavaScript Google Maps Keyless -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap">
+</script>
+
+</head>
+
+<body class="dark-scheme">
+    <div id="wrapper">
+        <div id="preloader">
+            <div class="preloader1"></div>
+        </div>
+        <!-- header begin -->
+        <header class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img alt="" src="images/logo.png" />
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                                <div class="de-flex-col">
+                                </div>
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainmenu begin -->
+                                <ul id="mainmenu">
+                                    <li><a href="index.html">Home</a></li> 
+                                    <li><a href="index.html#section-artists">Artists</a></li>                  
+                                    <li><a href="index.html#section-Collaboration">Collaborate</a></li>             
+                                    <li><a href="index.html#section-Awards">Awards</a></li>
+                                    <li><a href="index.html#section-gallery">Gallery</a></li>
+                                    <li><a href="index.html#section-Sponsors">Sponsors</a></li>
+                                    <li><a href="#section-About">About</a>
+                                        <ul>
+                                            <li><a href="Company.html">Company</a></li>
+                                            <li><a href="Contact.html">Contact</a></li>
+                                            <li><a href="FAQ.html">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            
+            <!-- section begin -->
+            <section id="subheader" class="text-light" data-bgimage="url(images/background/subheader1.jpg) bottom">
+                <div class="center-y relative text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>CONTACT</h1>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            
+            <!-- section begin -->
+            <section aria-label="section">
+                <div class="container">
+                    <p style="font-size: 34px;"><strong>CONTACT US</strong></p>
+                    <p>Connect with us for inquiries, collaborations, or more information.</p>
+                    
+                    <ul>
+                        <li><strong>Email:</strong> info@audiovibe.com</li>
+                        <li><strong>Phone:</strong> +62 896 2682 6507 </li>
+                        <li><strong>Fax:</strong> +62 222 222</li>
+                    </ul>
+                    
+                    <br>
+                    <br>
+
+                    <!-- Peta Lokasi Kami -->
+                    <p style="font-size: 34px;"><strong>OUR LOCATION</strong></p>
+
+                    <ul>
+                        <li><strong>Open:</strong> Sunday - Friday 08:00 - 22:00</li>
+                        <li><strong>Address:</strong> Jl. Bintaro Utama 3, Pd. Karya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten</li>
+                    </ul>
+
+                    <br>
+                    <p>Find us at the following location:</p>
+
+                    <!-- Buat sebuah div dengan ID untuk menampilkan peta -->
+                    <div id="map" style="height: 400px; width: 100%;"></div>
+
+                    <script>
+                        function initMap() {
+                            var myLatLng = {lat: -6.277578, lng: 106.719215};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 15,
+                                center: myLatLng
+                            });
+                            var marker = new google.maps.Marker({
+                                position: myLatLng,
+                                map: map,
+                                title: 'Lokasi Kami'
+                            });
+                        }
+
+                        window.addEventListener('load', initMap);
+                    </script>
+                </div>
+            </section>
+        </div>
+        <!-- content close -->
+
+        <a href="#" id="back-to-top"></a>
+        
+        <!-- footer begin -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-1">
+                        <div class="widget">
+                            <h5>Contact Info</h5>
+                            <address class="s1">
+                                <span><i class="id-color fa fa-map-marker fa-lg"></i>Kota Tangerang Selatan, Bintaro</span>
+                                <span><i class="id-color fa fa-phone fa-lg"></i>+62 896-2682-6507</span>
+                                <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:audiovibe@gmail.com">audiovibe@gmail.com</a></span>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col1-md-3 col-sm-6 col-xs-1">
+                        <div class="widget">
+                            <h5 class="right-alignn">Quick Links</h5>
+                            <ul>
+                                <li><a href="Company.html"class="right-alignn"> Company</a></li>
+                                <li><a href="Contact.html"class="right-alignn"> Contact</a></li>
+                                <li><a href="FAQ.html"class="right-alignn">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-1">
+                        <div class="widget">
+                            <h5>Newsletter</h5>
+                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
+                            <form action="blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
+                                <div class="col text-center">
+                                    <input class="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <a href="#" id="btn-subscribe"><i class="arrow_right bg-color-secondary"></i></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                            <div class="spacer-10"></div>
+                            <small>Your email is safe with us. We don't spam.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                    <a href="index.html" class="copyy">
+                                        <span class="copyy">&copy; Copyright 2024 - Design by dmzx314</span>
+                                    </a>
+                                </div>
+                                <div class="de-flex-col">
+                                    <div class="social-icons">
+                                        <!--
+                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                                        -->
+
+                                        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+                                        <!-- Ikon Sosial Media dengan target="_blank" -->
+                                        <a href="https://www.linkedin.com/in/dimasmrizki" target="_blank" rel="noopener noreferrer">
+                                            <i class="fab fa-linkedin fa-lg"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/dmzx314/" target="_blank" rel="noopener noreferrer">
+                                            <i class="fab fa-instagram fa-lg"></i>
+                                        </a>
+                                        <a href="https://www.tiktok.com/@el_mochi314" target="_blank" rel="noopener noreferrer">
+                                            <i class="fab fa-tiktok fa-lg"></i>
+                                        </a>
+                                        <a href="https://github.com/Molestum314" target="_blank" rel="noopener noreferrer">
+                                            <i class="fab fa-github fa-lg"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+
+    <!-- Javascript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/OwlCarousel2Thumbs.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/jquery.lazy.plugins.min.js"></script>
+    <script src="js/jquery.smartsticky.min.js"></script>
+    <script src="js/designesia.js"></script>
+
+</body>
+
+</html>
